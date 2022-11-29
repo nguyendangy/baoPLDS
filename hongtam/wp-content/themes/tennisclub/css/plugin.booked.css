@@ -1,0 +1,44 @@
+/* Booked Appointments
+------------------------------------------------------------------------------------ */
+body table.booked-calendar th .monthName a {
+	color: rgba(255,255,255,0.75);
+}
+body table.booked-calendar th .monthName a:hover {
+	color: #ffffff;
+}
+
+body .booked-form input[type=checkbox], body .booked-form input[type=radio] {
+	top: 4px;
+}
+
+body div.booked-calendar-wrap div.booked-calendar,
+body div.booked-calendar .booked-appt-list .timeslot .timeslot-people button, body .booked-modal input[type=submit], body .booked-modal button{
+	border-radius: 0;
+}
+
+body div.booked-calendar-wrap div.booked-calendar .bc-body .bc-row.week .bc-col .date .number {
+	line-height: 50px !important;
+}
+
+.booked-calendarSwitcher p{
+	margin-bottom: 0;
+}
+
+body .booked-calendarSwitcher > p select{
+	height: auto;
+}
+
+body .booked-calendarSwitcher > p select option{
+	color: #707276;
+}
+
+body .booked-calendarSwitcher::before{
+	top: 16px;
+}
+
+body .booked-modal input[type=submit].button-primary[disabled]:hover,
+body div.booked-calendar .booked-appt-list .timeslot .timeslot-people button[disabled]:hover,
+body div.booked-calendar .booked-appt-list .timeslot .timeslot-people button[disabled]{
+	background-color: rgb(238, 238, 238) !important;
+	border-color: #ccc !important;
+}

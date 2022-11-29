@@ -1,0 +1,125 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Travel Time
+ * @version 	1.2.8
+ */
+ 
+-----------------------------------------------------------------------
+				CHANGELO
+-----------------------------------------------------------------------
+Version 1.2.8:
+
+	1. Added the ability to add new Google fonts.
+	2. Added the ability to add and use local fonts.
+	3. Updated WooCommerce templates
+	4. Updated plugins
+	5. Updated translates
+--------------------------------
+Version 1.2.7:
+
+	1. Fixed twitter connection
+	2. Updated plugins
+	3. Updated translates
+	4. Fix for WooCommerce 6.9.0
+	5. Fixed hover slider script
+	6. Fixed behavior section setting for Posts Slider, Pricing Table and Gallery shortcodes
+--------------------------------------
+Version 1.2.6:
+
+	1. Fixed Content Composer (WP 6)
+	2. Update Plugins
+--------------------------------------
+Version 1.2.5:
+
+	1. Fixed The Events Calendar updated design
+	2. Update Plugins
+--------------------------------------
+Version 1.2.4:
+
+	1. Fixed The Events Calendar updated design
+	2. Update Plugins
+	3. Update Translate
+--------------------------------------
+Version 1.2.3:
+
+	1. Replaced postType with post-type
+	2. Fixed jQuery Migrate notices
+	3. Fixed iLigihtbox
+	4. Fixed isotope
+	5. Fixed demo content
+	6. Updated plugins
+	7. Updated translates
+--------------------------------------
+Version 1.2.2:
+
+	1. revslider 6.3.3
+	2. CC update
+--------------------------------------
+Version 1.2.1:
+
+	1. revslider 6.3.1
+	2. LayerSlider 6.11.2
+	3. Woo update
+	4. Envato theme check fix
+	5. Variable product fix
+	6. Yoast SEO breadcrumbs fix
+	7. Classic Editor fix
+	8. WP-PostRatings fix
+	9. PHP 7.4 implode fix
+	10. Gutenberg notices and CC button fixes
+	11. CC update
+	12. Update isotope
+	13. WP 5.6 columns fix
+	14. WP 5.6 drag'n'drop fix
+	15. WP 5.6 pop-up fix
+	16. Update LightBox isotope
+	17. TGMPA fix
+--------------------------------------
+Version 1.2.0:
+
+	1. WP 5.5 Color Picker fix
+	2. Removed Form Builder plugin
+--------------------------------------
+Version 1.1.9:
+
+	1. Update plugins
+	2. Update Woo 3.6.1
+	3. Add into Theme Settings checkbox, which do cart icon hidden
+	4. Logo 2x(retina) must has width as 1x (no retina)
+--------------------------------------
+Version 1.1.8:
+
+	1. Fix for open Project(tour)
+	2. Update cmsmasters-contact-form-builder 1.4.1
+--------------------------------------
+Version 1.1.7:
+
+	1. Update for WP 5 ( Gutenberg )
+	2. Add One Click Demo Import Plugin
+	3. Update plugins
+	4. Update Woo 3.5.2
+	5. Fix for Envato Theme Check 
+--------------------------------------
+Version 1.1.6:
+
+	1. Fix woo widget price filter
+	2. Fix for events calendar if venue is empty
+	3. Remove envato market plugin zip archive from theme
+	4. Add external link to github repository for envato market plugin
+	5. Update for Gutenberg
+	6. Update events calendar 4.6.21 (Pro 4.4.30)
+	7. Update Plugins
+	8. Update Translate
+--------------------------------------
+Version 1.1.5:
+
+	1. Update Woo 3.4.0
+	2. Update FB widget for Privacy Policy
+	3. Update comments (add cookies checkbox)
+	4. Add privacy policy link to footer
+	5. Add Cookie Notice plugin to plugin activator
+	6. Fix comments navigation
+	7. Style for MailPoet 3
+	8. Update Plugins
+	9. Update Translate
+--------------------------------------

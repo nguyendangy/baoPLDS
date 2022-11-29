@@ -1,0 +1,329 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Travel Time
+ * @version 	1.1.7
+ * 
+ * Responsive Events CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+@import "general.less";
+
+
+@media only screen {
+	/*-------------------------------------------------------------------------*/
+	/* Large Monitor
+	/*-------------------------------------------------------------------------*/
+	@media @monitor_large_max {
+		#page .tribe-mini-calendar tbody a, 
+		#page .tribe-mini-calendar tbody span {
+			line-height:20px;
+		}
+		
+		.tribe-mini-calendar tbody a, 
+		.tribe-mini-calendar tbody span {
+			width:20px;
+			height:20px;
+		}
+	}
+	
+	/*-------------------------------------------------------------------------*/
+	/* Medium Monitor
+	/*-------------------------------------------------------------------------*/
+	@media @monitor_medium {
+		#tribe-events-content-wrapper {
+			outline:none;
+		}
+		
+		.content .tribe-events-photo #tribe-events-photo-events {
+			margin:0 -11px;
+		}
+	}
+	
+	
+	
+	/*-------------------------------------------------------------------------*/
+	/* Tablet Monitor
+	/*-------------------------------------------------------------------------*/
+	@media @monitor_tablet {
+		.tribe-events-list {
+			.tribe-events-event-image {
+				width:40%;
+			}
+		}
+		
+		.cmsmasters_single_event_meta {
+			&.cmsmasters_event_meta_info_col_4 {
+				.tribe-events-meta-group {
+					width:round((100% / 2) - (@col_mar * 2), 2);
+					
+					&:nth-child(2n + 1) {
+						clear:left;
+					}
+				}
+			}
+		}
+		
+		.cmsmasters_single_event_meta {
+			&.cmsmasters_event_meta_info_col_3 {
+				.tribe-events-meta-group {
+					width:round(100% - (@col_mar * 2), 2);
+				}
+			}
+		}
+	}
+	
+	@media @monitor_tablet_950 {
+		#page .tribe-mini-calendar tbody a, 
+		#page .tribe-mini-calendar tbody span {
+			line-height:30px;
+		}
+		
+		.tribe-mini-calendar tbody a, 
+		.tribe-mini-calendar tbody span {
+			width:30px;
+			height:30px;
+		}
+	}
+	
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+		.tribe-events-photo #tribe-events-photo-events {
+			margin: 0 -20px;
+		}
+		
+		.tribe-events-photo .tribe-events-photo-event {
+			padding: 40px 20px 0;
+		}
+	}
+	
+	/*-------------------------------------------------------------------------*/
+	/* Small Tablet Monitor
+	/*-------------------------------------------------------------------------*/
+	@media @monitor_tablet_small {
+		.tribe-bar-filters-inner {
+			> div {
+				width:round(100% - (@col_mar * 2), 2);
+				
+				.tribe-events-uses-geolocation & {
+					width:round(100% - (@col_mar * 2), 2);
+				}
+				
+				&.tribe-bar-submit label {
+					.dn;
+				}
+			}
+		}
+		
+		#tribe-geo-map-wrapper {
+			#tribe-geo-map {
+				padding-bottom:50%;
+			}
+		}
+		
+		#tribe-events-content {
+			padding-top:25px;
+		}
+		
+		#tribe-mobile-container {
+			display:block;
+		}
+		
+		table.tribe-events-calendar {
+			thead {
+				th {
+					padding:5px 0;
+				}
+			}
+			
+			tbody {
+				td {
+					height:45px;
+					padding-bottom:20px;
+					
+					&.tribe-events-has-events {
+						position:relative;
+						cursor:pointer;
+						
+						&:before {
+							background:#000;
+							content:'';
+							.pos_abs(5px, 5px, 0, 0, auto, 10px);
+							.bdrs(50%);
+							.trans(~'background-color .3s ease-in-out');
+						}
+						
+						&.mobile-active {
+							outline:none;
+						}
+					}
+					
+					&.tribe-events-thismonth {
+						position:relative;
+					}
+					
+					div[id*="tribe-events-daynum-"] {
+						padding:0;
+						.tac;
+						
+						a {
+							margin:0;
+							padding:0;
+							.tac;
+						}
+					}
+					
+					.tribe_events {
+						.dn;
+					}
+					
+					.tribe-events-viewmore {
+						.dn;
+					}
+				}
+			}
+		}
+		
+		.tribe-events-list {
+			.tribe-events-event-image {
+				width:100%;
+				padding:0 0 30px;
+				float:none;
+				.cl;
+			}
+		}
+		
+		.tribe-events-week-grid {
+			.tribe-events-grid {
+				display:none;
+			}
+		}
+
+		.cmsmasters_single_event {		
+			.cmsmasters_single_event_header {
+				padding:35px 25px 24px;
+			}
+
+			.cmsmasters_single_event_inner {
+			    padding: 0 25px 35px;
+			}
+			
+			.cmsmasters_single_event_content {
+				padding:0 25px 0;
+			}
+			
+			.cmsmasters_single_event_meta {
+				padding:25px;
+			}
+		}
+	}
+	
+	
+	
+	/*-------------------------------------------------------------------------*/
+	/* Phone Monitor
+	/*-------------------------------------------------------------------------*/
+	@media @monitor_phone {
+		#tribe-geo-map-wrapper {
+			#tribe-geo-map {
+				padding-bottom:100%;
+			}
+		}
+		
+		.tribe-events-photo {
+			.tribe-events-photo-event {
+				width:100% !important;
+				float:none;
+			}
+		}
+		
+		.cmsmasters_single_event {
+			.cmsmasters_single_event_header_left {
+				float:none;
+			}
+			
+			.cmsmasters_single_event_header_right {
+				padding:25px 0 0;
+				float:none;
+				
+				a {
+					.fl;
+				}
+			}
+		}
+		
+		.tribe-events-venue {
+			.cmsmasters_events_venue_header_left {
+				float:none;
+			}
+			
+			.cmsmasters_events_venue_header_right {
+				padding:25px 0 0;
+				float:none;
+				
+				a {
+					.fl;
+				}
+			}
+		}
+		
+		.tribe-events-organizer {
+			.cmsmasters_events_organizer_header_left {
+				float:none;
+			}
+			
+			.cmsmasters_events_organizer_header_right {
+				padding:25px 0 0;
+				float:none;
+				
+				a {
+					.fl;
+				}
+			}
+		}
+		
+		.cmsmasters_single_event_meta {
+			&.cmsmasters_event_meta_info_col_4, 
+			&.cmsmasters_event_meta_info_col_3, 
+			&.cmsmasters_event_meta_info_col_2 {
+				.tribe-events-meta-group {
+					width:round(100% - (@col_mar * 2), 2);
+					float:none;
+					.cl;
+				}
+			}
+		}
+		
+		.cmsmasters_single_event_map, 
+		.tribe-events-venue .cmsmasters_events_venue_meta_map {
+			[id*="tribe-events-gmap"] {
+				padding-bottom:100% !important;
+			}
+		}
+		
+		ul.tribe-related-events {
+			li {
+				width:round(100% - (@col_mar * 2), 2);
+				margin-bottom:30px;
+				float:none;
+				.cl;
+				
+				&:last-child {
+					margin-bottom:0;
+				}
+			}
+		}
+		
+		.cmsmasters_single_event .cmsmasters_single_event_inner {
+			padding-bottom:0;
+			
+			.cmsmasters_single_event_map, 
+			.cmsmasters_single_event_img {
+				width:100%;
+				padding:0 0 30px;
+			}
+		}
+	}
+}
+
